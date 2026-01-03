@@ -1,0 +1,5 @@
+ Executed the Before ALL
+ <----Before each test Executed --->
+ <----Test2 Executed --->
+ <----After each test Executed --->
+ Executed the AfterALL
