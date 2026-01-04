@@ -1,5 +1,5 @@
 import{expect,test} from '@playwright/test'
-test('test dropdown field',async ({page})=>{
+test('@regression test login error message',async ({page})=>{
 await page.goto("https://demowebshop.tricentis.com/login");
 await page.locator("#Email").fill("penchal@gmail.com");
 await page.locator("#Password").fill("penchal@");
