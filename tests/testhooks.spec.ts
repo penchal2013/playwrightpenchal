@@ -25,7 +25,7 @@ test.describe.serial('Hooks Implementation', async () => {
         await page.getByRole('button', { name: 'Add to cart' }).first().click();
     });
     test('@regression Verify Test2', async () => {
-        console.log(" <----Test2 Executed --->");
+        console.log(" <----Test2 Executed in regression suite--->");
         await page.getByRole('link', { name: 'Computers' }).nth(1).click();
         await page.getByRole('link', { name: 'Desktops' }).last().click();
         await page.locator('.product-item').filter({ hasText: 'expensive' }).click();
