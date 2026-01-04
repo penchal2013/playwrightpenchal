@@ -8,5 +8,4 @@ await page.locator('[value="Log in"]').click();
 let errormessage:string=await page.locator('.validation-summary-errors').textContent()??"";
 console.log(errormessage);
 page.pause();
-
 })
